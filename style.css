@@ -64,7 +64,6 @@ h2{
 .input-box input:focus~label,
 .input-box input:valid~label{
     top: -0.5rem;
-    left:0.5rem;
 }
 
 .input-box input{
