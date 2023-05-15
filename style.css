@@ -16,7 +16,14 @@ section{
     align-items: center;
     align-content: center;
     display: flex;
-
+}
+@keyframes animateBg{
+    50%{
+        filter:hue-rotate(180deg);
+    }
+    100%{
+        filter:hue-rotate(360deg);
+    }
 }
 body{
     display: flex;
@@ -127,4 +134,12 @@ button{
 }
 .register-link p a:hover{
     text-decoration: underline;
+}
+
+@media (max-width:360px){
+    .login-box{
+        width:100%;
+        height: 100vh;
+        border: none;
+    }
 }
